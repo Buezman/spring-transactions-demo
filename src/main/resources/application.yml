@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/transactions_db
-    username: root
-    password:
+    url: jdbc:mysql://localhost:3306/${db_name:transactions_db}
+    username: ${db_username:root}
+    password: ${db_password:password}
   jpa:
     show-sql: true
     hibernate:
