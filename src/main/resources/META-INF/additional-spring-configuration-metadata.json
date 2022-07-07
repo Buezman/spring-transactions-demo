@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.FLW_SECRET_KEY",
+      "type": "java.lang.String",
+      "description": "Description for spring.FLW_SECRET_KEY."
+  }
+] }
