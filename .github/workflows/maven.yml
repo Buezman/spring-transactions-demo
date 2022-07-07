@@ -26,6 +26,5 @@ jobs:
       run: mvn -B package --file pom.xml
       env:
         DB_USERNAME: ${{ secrets.DB_USERNAME }}
-        DB_CLASSNAME: ${{ secrets.DB_CLASSNAME }}
         DB_URL: ${{ secrets.DB_URL }}
 
