@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    driver-class-name: ${DB_CLASSNAME}
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: ${DB_URL}
     username: ${DB_USERNAME}
     password:
@@ -11,5 +11,3 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-
-  FLW_SECRET_KEY: ${FLW_SECRET_KEY}
