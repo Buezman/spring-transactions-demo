@@ -10,6 +10,6 @@ spring:
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
 
   FLW_SECRET_KEY: ${FLW_SECRET_KEY}
